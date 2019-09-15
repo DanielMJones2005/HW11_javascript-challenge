@@ -16,15 +16,21 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">UFO Sightings
-            <img class="nav-ufo" src="static/images/ufo.svg">
+            <img class="nav-ufo" src="static/images/ufo.svg">            
           </a>
         </div>
       </div>
     </nav>
     <div class="hero text-center">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+    
       <h1>UFO Sightings</h1>
       <p>The Truth is Out There</p>
+     
     </div>
+      
     <div class="container">
       <div class="row margin-top-50">
         <div class="col-md-2">
@@ -41,7 +47,10 @@
                       </li>
                     </ul>
                   </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                 
+                    <button id="filter-btn" type="button" class="btn btn-default btn-border">Filter Table</button>
+                    <button id="reset-btn" type="button" class="btn btn-default btn-border">Reset Table</button>
+                    <img class="nav-marvin" src="https://i.pinimg.com/736x/1d/a2/88/1da288648fcff65f7257a2af0208270b--marvin-the-martian-cartoon-art.jpg" width="100">
                 </form>
               </div>
             </div>
@@ -61,7 +70,7 @@
                   <th class="table-head">Comments</th>
                 </tr>
               </thead>
-              <tbody></tbody>
+              <tbody id="ufo-body"></tbody>
             </table>
           </div>
         </div>
@@ -75,5 +84,6 @@
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
 </body>
+
 
 </html>

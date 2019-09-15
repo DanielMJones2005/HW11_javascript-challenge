@@ -55,6 +55,28 @@ filteredDate.forEach(ufoReport => {
 
 
 
+// RESET TABLE
+var resetButton = d3.select("#reset-btn");
+
+// Filter Function
+resetButton.on("click", function() {
+
+// Empty table
+document.getElementById("ufo-body").innerHTML = "";
+document.getElementById("datetime").value = "";
+
+data.forEach(ufoReport => {
+   var row = tbody.append("tr");
+   Object.entries(ufoReport).forEach(([key, value]) => {
+     var cell = row.append("td");
+     cell.text(value);
+   });
+ });
+});
+
+
+
+
 
 
 // button.on("click", function() {

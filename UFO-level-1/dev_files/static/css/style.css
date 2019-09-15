@@ -191,6 +191,11 @@ select {
   }
 }
 
+
+.btn-border {
+  border: 1px solid whitesmoke;
+}
+
 /* keyframe animations which will be used to animate the title */
 @keyframes title {
   from {
