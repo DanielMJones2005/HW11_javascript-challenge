@@ -46,9 +46,11 @@ var inputCountryVal = inputCountry.property("value");
 var inputShapeVal = inputShape.property("value");
 // console.log(inputShapeVal)
 
+// FILTER
+// step 1: define your original filter result
+
 var inputAll = [inputDateVal, inputCityVal, inputStateVal, inputCountryVal, inputShapeVal];
 console.log(inputAll);
-
 
 var inputLen = [];
 
@@ -59,46 +61,38 @@ inputAll.forEach((input) => {
 console.log(inputLen)
 
 
-var filt = [];
+// step 2: define your filter array
+var filter = [];
 
 if (inputLen[0] > 0) {
-  filt.push(d => d.datetime === inputDateVal);
+  filter.push(d => d.datetime === inputDateVal);
 } 
 
 if (inputLen[1] > 0) {
-  filt.push(d => d.city === inputCityVal);
+  filter.push(d => d.city === inputCityVal);
 }
 
 if (inputLen[2] > 0) {
-  filt.push(d => d.state === inputStateVal);
+  filter.push(d => d.state === inputStateVal);
 }
 
 if (inputLen[3] > 0) {
-  filt.push(d => d.state === inputStateVal);
+  filter.push(d => d.country === inputCountryVal);
 }
 
 if (inputLen[4] > 0) {
-  filt.push(d => d.shape === inputShapeVal);
+  filter.push(d => d.shape === inputShapeVal);
 }
 
+console.log(filter)
 
-console.log(filt)
 
 
-// FILTER
-
-// step 1: define your original filter result
 var dataResult =  tableData;
-//var fData = result.filter(d => d.datetime === inputDateVal);
-
-// step 2: define your filter array
-var filterOptions = [d => d.datetime === inputDateVal, d => d.city === inputCityVal,
-  d => d.state === inputStateVal, d => d.country === inputCountryVal, d => d.shape === inputShapeVal]; 
-
 
 
 // step 3: forEach on filter array to apply filters on result
-filt.forEach(f => dataResult = dataResult.filter(f)); 
+filter.forEach(f => dataResult = dataResult.filter(f)); 
 console.log(dataResult)
 
 
@@ -116,7 +110,7 @@ dataResult.forEach(ufoReport => {
   });
 });
 
-// 
+ 
 
 
 
