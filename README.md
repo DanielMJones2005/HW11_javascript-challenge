@@ -17,7 +17,7 @@
  * index.html
  
 [UFO-level-2-modified](https://github.com/DanielMJones2005/HW11_javascript-challenge/tree/master/UFO-level-2-modified)
-* UFO-level-2-modified is UFO-level-2 but modified 'var' to 'let
+* UFO-level-2-modified is UFO-level-2 but modified 'var' to 'let'
   
 [UFO-level-2](https://github.com/DanielMJones2005/HW11_javascript-challenge/tree/master/UFO-level-2)
 * dev_files
