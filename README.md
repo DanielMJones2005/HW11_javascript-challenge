@@ -15,6 +15,9 @@
      * data.js
  * .gitignore
  * index.html
+ 
+[UFO-level-2-modified](https://github.com/DanielMJones2005/HW11_javascript-challenge/tree/master/UFO-level-2-modified)
+* UFO-level-2-modified is UFO-level-2 but modified 'var' to 'let
   
 [UFO-level-2](https://github.com/DanielMJones2005/HW11_javascript-challenge/tree/master/UFO-level-2)
 * dev_files
@@ -53,6 +56,7 @@
 ## Level 2: Multiple Search Categories
 * Completed all of Level 1 criteria
   * Level 2: [index.html](https://github.com/DanielMJones2005/HW11_javascript-challenge/blob/master/UFO-level-2/index.html)
+  * Level 2-modified: [index.html](https://github.com/DanielMJones2005/HW11_javascript-challenge/blob/master/UFO-level-2-modified/index.html)
 * Used multiple input tags
   * Wrote JavaScript code so user can set multiple filters and search for UFO sightings
    * Using the following criteria:
@@ -61,3 +65,4 @@
      * state
      * country
      * shape
+ 
