@@ -35,7 +35,7 @@
 
 ## Level 1: Automatic Table and Date Search
 * Created a basic HTML web page
-  * [index.html](https://github.com/DanielMJones2005/HW11_javascript-challenge/blob/master/UFO-level-1/index.html)
+  * Level 1: [index.html](https://github.com/DanielMJones2005/HW11_javascript-challenge/blob/master/UFO-level-1/index.html)
 
 * Using the UFO dataset provided in the form of an array of JavaScript objects
   * Wrote code that appends a table to web page and then adds new rows of data for each UFO sighting
@@ -52,6 +52,7 @@
   
 ## Level 2: Multiple Search Categories
 * Completed all of Level 1 criteria
+  * Level 2: [index.html](https://github.com/DanielMJones2005/HW11_javascript-challenge/blob/master/UFO-level-2/index.html)
 * Used multiple input tags
   * Wrote JavaScript code so user can set multiple filters and search for UFO sightings
    * Using the following criteria:
